@@ -1,6 +1,5 @@
 # 📘 Trabalho Prático (Projeto com Classificação Binária usando LLMs)
 
----
 **Membros da Equipe:**
 
 - Ademir Guimarães
