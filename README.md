@@ -16,6 +16,7 @@ Este notebook realiza uma **análise exploratória de dados** utilizando bibliot
 Também são aplicadas técnicas de **pré-processamento de texto**, como a **remoção de pontuação e stopwords** com a biblioteca **NLTK**.
 
 Além disso, o projeto faz uso de modelos de linguagem baseados em **Transformers**, com o `SentenceTransformer` para gerar **embeddings semânticos** dos textos.  
+
 Para inferência com **LLMs**, foi utilizado o modelo **LLaMA 3.1–8B-Instant**, acessado por meio da **API do Groq**.
 
 ---
@@ -47,6 +48,7 @@ GROQ_MODEL=llama-3.1-8b-instant
 ## 🧠 Observações
 ⚠️ Os testes foram realizados utilizando o serviço sob demanda da Groq.
 A versão gratuita do modelo LLaMA 3.1 possui limitação no número de tokens por minuto (TPM), o que pode impedir a execução completa dos testes diretamente nessa modalidade.
+
 ⚠️ Ao rodar no ambiente do Colab, as bibliotecas necessárias já estão no notebook para instalação.
 
 
